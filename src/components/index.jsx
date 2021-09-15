@@ -34,6 +34,7 @@ import CloseButton from './MapComponents/CloseButton'
 import CloseButtonMobile from './MapComponents/CloseButtonMobile'
 import PopupHelper from "./PopupHelper";
 import CardAccount from "./CardAccount";
+import NestedComment from "./NestedComment";
 
 export {
   Header,
@@ -71,5 +72,6 @@ export {
   CloseButton,
   CloseButtonMobile,
   PopupHelper,
-  CardAccount
+  CardAccount,
+  NestedComment,
 };
