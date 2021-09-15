@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100%;
+  font-family: 'CircularStd-Book', sans-serif;
+}
+
+
+#root {
+  height: auto !important; /* real browsers */
+  height: 100%; /* IE6: treaded as min-height*/
+  overflow: hidden;
+  min-height: 100%; /* real browsers */
+  min-height: 100vh ; 
+}
+
+/* #root * :not(.react-pdf__Document *)  {
+  font-family: 'CircularStd-Book', sans-serif;
+} */
+
+/* #root * {
+  font-family: 'CircularStd-Book', sans-serif;
+} */
+
+#root .la,
+body .la {
+  font: normal normal normal 16px/1 LineAwesome !important;
+}
+
+input:-internal-autofill-selected {
+  background-color: white !important;
+}
+
+button.Mui-disabled {
+  opacity: 0.3;
+}
+
+.deAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:active,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus 
+{
+ -webkit-box-shadow: 0 0 0 90px #fafafa inset !important;
+}
